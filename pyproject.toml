@@ -1,0 +1,10 @@
+[project]
+name = "speech_transcriber"
+version = "0.1.0"
+description = "Local speech-to-text decoder for base64 opus audio using Whisper"
+authors = [{ name = "Oleksandr Kaiukov", email = "your@email.com" }]
+dependencies = [
+    "openai-whisper",
+    "ffmpeg-python"
+]
+requires-python = ">=3.8"
